@@ -1,0 +1,31 @@
+
+<a href="navigation.html">Back</a>
+<br>
+
+<h1>Tuiter</h1>
+<h2>Tuit</h2>
+<img src="../resources/owner.jpg" alt="Owner Picture" width="48" height="48">
+<br>
+<br>
+<textarea cols="auto"
+         rows="auto"
+         placeholder="What's happening?"
+         title="tooltip">
+</textarea>
+<br>
+<br>
+<select id="select audience">
+    <option selected value="Everyone">Everyone can reply</option>
+    <option value="Following">People you follow</option>
+    <option value="Mentioned">Only people you mention</option>
+</select>
+<br>
+<br>
+<input type="file" id="imageUpload" placeholder="Choose file" accept="image/*" No file choosen>
+<button onclick="openInternalPage()">Tuit</button>
+
+  <script>
+    function openInternalPage() {
+      window.location.href = 'tuit.html'; 
+    }
+    </script>
