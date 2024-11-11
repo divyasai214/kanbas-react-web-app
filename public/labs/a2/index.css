@@ -1,0 +1,36 @@
+p#id-selector-1 {
+    background-color: rgb(42, 42, 183);
+    color: white;
+   }
+   .class-selector {
+    background-color: yellow;
+    color: blue;
+   }
+   .selector-1 .selector-3 {
+      background-color: rgb(240, 225, 225);
+      color: white;
+   }
+   .selector-2 > .selector-3 > .selector-4 {
+      background-color: rgb(68, 121, 56);
+      color: rgb(147, 39, 136);
+   }
+
+.fg-color-black { color: black; }
+.fg-color-white { color: white; }
+.fg-color-blue { color: #7070ff; }
+.fg-color-red { color: #5b0505; }
+.fg-color-green { color: green; }
+
+.bg-color-yellow {
+    background-color: #ffff07;
+ }
+ .bg-color-blue {
+    background-color: #7070ff;
+ }
+ .bg-color-red {
+    background-color: #ff7070;
+ }
+ .bg-color-green {
+    background-color: green;
+ }
+ 
