@@ -1,7 +1,7 @@
 function BooleanVar() {
     var numberVariable = 123;
     let floatingPointNumber = -234.345;
-    const stringVariable = 'Hello World!';
+    //const stringVariable = 'Hello World!';
     let true1 = true
 let false1 = false
 let false2 = true1 && false1
